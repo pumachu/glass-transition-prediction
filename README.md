@@ -8,7 +8,7 @@ The 26 organic molecules investigated here are common **host materials** or **ho
 <img src='https://i.imgur.com/HPvvHs8.png' alt='alt text' width=800 >
 
 
-The contents will be introduced as following.
+The contents in the repository will be introduced as following.
 
 ### INPUT_FILES
 This folder contains input files for Gaussian (**GAUSSIAN/**), DDEC6 (**DDEC6/**) and Gromacs (**GROMACS/**) computations.
