@@ -15,7 +15,7 @@ c. Cooling (cooling.mdp)
 ```
 ### ANALYZING_SCRIPTS
 This folder contains python scripts for generating DDEC parameters, Tg fitting and creating R<sup>2</sup>-Temperautre plots for various fitting ranges.  
-**Usage for R2-T_plot.py:**  
+#### Usage of R2-T_plot.py:  
 ```
 python R2-T_plot.py energy.xvg
 ```
@@ -23,7 +23,7 @@ The input file *energy.xvg* is the Gromacs output that contains the information 
 
 <img src='https://i.imgur.com/NaynZFf.png' alt='alt text' width=700>
 
-**Usage for Tg_fit_plot.py:**  
+#### Usage of Tg_fit_plot.py:
 ```
 python Tg_fit_plot.py energy.xvg
 ```
@@ -47,7 +47,7 @@ Fitting size:  300 Tg:  101.31
 
 <img src='https://i.imgur.com/pm4Xwh6.png' alt='alt text' width=500>
 
-**Usage for gen_VDW.py:**  
+#### Usage of gen_VDW.py:   
 ```
 python gen_VDW.py
 ```
