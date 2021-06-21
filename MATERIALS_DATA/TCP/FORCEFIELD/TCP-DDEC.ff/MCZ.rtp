@@ -1,0 +1,105 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2  ; functions for each type interaction
+[MCZ]
+   [ atoms ]
+      N3  N    -0.159055  4 
+      CNc CN   0.154470   4
+      CP7 CP   -0.032926  4
+      CP6 CP   -0.032904  4
+      CN1 CN   0.151598   4
+      Cb  C    -0.204242  4
+      Ca  C    -0.076853  4
+      C9  C    -0.127490  4
+      C8  C    -0.113686  4
+      C5  C    -0.112790  4
+      C4  C    -0.126691  4
+      C3  C    -0.077929  4
+      C2  C    -0.200732  4
+      Hb  H    0.115145   4
+      Ha  H    0.101538   4
+      H9  H    0.101255   4
+      H8  H    0.108632   4
+      H5  H    0.107961   4
+      H4  H    0.101201   4
+      H3  H    0.101100   4
+      H2  H    0.114259   4
+      
+   [ bonds ]
+      CN1 C2  ;first ring
+      C2  C3
+      C3  C4
+      C4  C5
+      C5  CP6
+      CP6 CN1
+
+      CP7 C8  ;second ring
+      C8  C9
+      C9  Ca
+      Ca  Cb
+      Cb  CNc
+      CNc CP7
+      
+      CN1 N3  ;pyrole
+      CNc N3
+      CP6 CP7
+      
+      C2  H2  ;hydrogens
+      C3  H3
+      C4  H4
+      C5  H5
+      C8  H8
+      C9  H9
+      Ca  Ha
+      Cb  Hb
+     
+      N3 -CZ2 ; link to BEN 
+
+    [ dihedrals ]
+      CNc   N3  -CZ2  -C10   ; 53 52 25 24
+
+     [ impropers ]
+      CN1  C2   C3   C4  ;first ring
+      C2   C3   C4   C5  
+      C3   C4   C5   CP6 
+      C4   C5   CP6  CN1 
+      C5   CP6  CN1  C2  
+      CP6  CN1  C2   C3  
+        
+      C2   CN1  C3   H2  
+      C3   C4   C2   H3  
+      C4   C5   C3   H4  
+      C5   C4   CP6  H5  
+  
+      CP7  C8   C9   Ca  ;second ring
+      C8   C9   Ca   Cb  
+      C9   Ca   Cb   CNc 
+      Ca   Cb   CNc  CP7 
+      Cb   CNc  CP7  C8  
+      CNc  CP7  C8   C9  
+        
+      C8   C9   CP7  H8  
+      C9   Ca   C8   H9  
+      Ca   Cb   C9   Ha  
+      Cb   CNc  Ca   Hb 
+      
+      CN1  CP6  CP7  CNc ;pyrole
+      CP6  CP7  CNc  N3 
+      CP7  CNc  N3   CN1 
+      CNc  N3   CN1  CP6
+      N3   CN1  CP6  CP7
+      
+      CN1  CP6  N3   C2 ; connection
+      CP6  CN1  CP7  C5
+      CP7  CNc  CP6  C8
+      CNc  N3   CP7  Cb
+      
+
+      N3   CN1  CNc -CZ2 ; connection to BEN
+
+    [ exclusions ]
+     -H10  H2
+     -H10  Hb
+     -H12  H2
+     -H12  Hb
+

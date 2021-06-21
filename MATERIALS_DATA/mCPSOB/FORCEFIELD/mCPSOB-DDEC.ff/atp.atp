@@ -1,0 +1,11 @@
+  C       12.01100 
+  H        1.00800 
+  N       14.00670 ;%
+  CN      12.01100 ; Carbon next to N in pyrrole ring
+  CP      12.01100 ; Other carbon in pyrrole ring
+  CZ	  12.01100 ; bonding carbon to carbazole
+  S      32.06000 ; 
+  O      15.99900
+  OD     15.99900
+
+	

@@ -1,0 +1,121 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ UF2 ]
+  [ atoms ]
+    CZb  CZ   0.071058    2    
+    C2   C    -0.181690   2
+    H2   H    0.113257    2
+    CB1  CB   0.028986    2   
+    CP1  CP   0.014062    2
+    C3   C    -0.126226   2
+    H3   H    0.105789    2 
+    C4   C    -0.140307   2
+    H4   H    0.106612    2
+    CC   CS   0.023706    2  
+    CP2  CP   0.012507    2
+    CB2  CB   0.027720    2
+    C5   C    -0.177880   2
+    H5   H    0.112084    2
+    CZc  CZ   0.070702    2
+    C7   C    -0.142927   2
+    H7   H    0.108146    2
+    C8   C    -0.125139   2 
+    H8   H    0.105348    2
+
+    
+  [ bonds ]
+    CZb C2
+    C2  CB1
+    CB1 CP1
+    CP1 C3
+    C3  C4
+    C4  CZb
+ 
+    C2  H2
+    C3  H3
+    C4  H4
+
+    CB1 CC
+    CC  CB2
+    CB2 CP2
+    CP2 CP1
+    CP1 CB1
+    
+    CB2 C5
+    C5  CZc
+    CZc C7
+    C7  C8
+    C8  CP2
+
+    C5  H5
+    C7  H7
+    C8  H8
+    
+    CC  +CB3
+    CC  +CB4
+
+    CZc +CZd ; link to UF3
+    CZb -CZa  ; link to UF1
+
+
+
+  [ dihedrals ]
+    -C2 -CZa  CZb  C2  ;  2  1 41 42
+     C5  CZc +CZd +C2  ; 53 55 80 81
+    
+  [ impropers ]
+    CZb C2  CB1 CP1
+    C2  CB1 CP1 C3
+    CB1 CP1 C3  C4
+    CP1 C3  C4  CZb
+    C3  C4  CZb C2
+    C4  CZb C2  CB1
+    
+    C2  CZb CB1 H2
+    C3  CP1 C4  H3
+    C4  C3  CZb H4
+
+    CB1 CC  CB2 CP2
+    CC  CB2 CP2 CP1
+    CB2 CP2 CP1 CB1
+    CP2 CP1 CB1 CC
+    CP1 CB1 CC  CB2
+
+    CB2 C5  CZc C7
+    C5  CZc C7  C8
+    CZc C7  C8  CP2
+    C7  C8  CP2 CB2
+    C8  CP2 CB2 C5
+    CP2 CB2 C5  CZc
+
+    C5  CB2 CZc H5
+    C7  CZc C8  H7
+    C8  C7  CP2 H8
+
+    CB1 CC  CP1 C2
+    CP1 CB1 CP2 C3
+    CP2 CB2 CP1 C8
+    CB2 CC  CP2 C5
+
+    CZb C4  C2 -CZa  ; link to UF1
+    CZc C5  C7 +CZd  ; link to UF3
+
+  
+  [ exclusions ] 
+    H2  H4
+    H2  H3
+    H3  H4
+    H2  H5
+    H2  H7
+    H2  H8
+    H3  H8
+    H3  H7
+    H3  H5
+    H4  H5
+    H4  H7
+    H4  H8
+    H5  H7
+    H5  H8
+    H7  H8

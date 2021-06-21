@@ -1,0 +1,105 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[ULC]
+   [ atoms ]
+      N2  N  -0.158086      5
+      CNa CN 0.1526896667    5  
+      CPb CP -0.03421666667  5
+      CPc CP -0.03529666667  5
+      CNd CN 0.1540636667    5
+      Cb1 C  -0.1134096667   5
+      Cb2 C  -0.129058       5
+      Cb3 C  -0.08079733333  5
+      Cb4 C  -0.203816       5
+      Cb5 C  -0.1113983333   5
+      Cb6 C  -0.13094        5
+      Cb7 C  -0.07834433333  5
+      Cb8 C  -0.205519       5
+      Hb1 H  0.1069776667    5
+      Hb2 H  0.100049        5
+      Hb3 H  0.09973933333   5    
+      Hb4 H  0.110709        5
+      Hb5 H  0.1066803333    5
+      Hb6 H  0.099705        5
+      Hb7 H  0.09918033333   5
+      Hb8 H  0.1112566667    5
+  
+      
+   [ bonds ]
+      CNa CPb ;first ring
+      CPb Cb1
+      Cb1 Cb2
+      Cb2 Cb3
+      Cb3 Cb4
+      Cb4 CNa
+
+      CNd CPc ;second ring
+      CPc Cb5
+      Cb5 Cb6
+      Cb6 Cb7
+      Cb7 Cb8
+      Cb8 CNd
+      
+      CNa N2  ;pyrole
+      CNd N2
+      CPb CPc
+      
+      Cb1 Hb1 ;hydrogens
+      Cb2 Hb2
+      Cb3 Hb3
+      Cb4 Hb4
+      Cb5 Hb5
+      Cb6 Hb6
+      Cb7 Hb7
+      Cb8 Hb8
+      
+      N2 -CZ2
+
+     [ dihedrals ]
+      CNa  N2  -CZ2 -C23 ; 54 53 15 14
+
+     [ impropers ]
+      CNa  CPb  Cb1  Cb2 ;first ring
+      CPb  Cb1  Cb2  Cb3 
+      Cb1  Cb2  Cb3  Cb4 
+      Cb2  Cb3  Cb4  CNa 
+      Cb3  Cb4  CNa  CPb 
+      Cb4  CNa  CPb  Cb1 
+
+      Cb1  CPb  Cb2  Hb1 
+      Cb2  Cb1  Cb3  Hb2 
+      Cb3  Cb2  Cb4  Hb3 
+      Cb4  Cb3  CNa  Hb4 
+  
+      CNd  CPc  Cb5  Cb6 ;second ring
+      CPc  Cb5  Cb6  Cb7 
+      Cb5  Cb6  Cb7  Cb8 
+      Cb6  Cb7  Cb8  CNd 
+      Cb7  Cb8  CNd  CPc 
+      Cb8  CNd  CPc  Cb5 
+        
+      Cb5  CPc  Cb6  Hb5 
+      Cb6  Cb5  Cb7  Hb6 
+      Cb7  Cb6  Cb8  Hb7 
+      Cb8  Cb7  CNd  Hb8
+      
+      N2   CNa  CPb  CPc ;pyrole
+      CNa  CPb  CPc  CNd
+      CPb  CPc  CNd  N2  
+      CPc  CNd  N2   CNa
+      CNd  N2   CNa  CPb
+      
+      CNa  CPb  Cb4  N2 ; connection
+      CNd  CPc  Cb8  N2
+      CPb  CNa  CPc  Cb1
+      CPc  CNd  CPb  Cb5
+      
+
+      N2   CNa  CNd -CZ2 ; connection to benzene ring
+     
+     [ exclusions ]
+      Hb4   -H23
+      Hb4   -H25
+      Hb8   -H23
+      Hb8   -H25 

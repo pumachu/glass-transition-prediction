@@ -1,0 +1,105 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[DWC]
+   [ atoms ]
+      N3  N  -0.158086      6
+      CNh CN 0.1526896667    6  
+      CPi CP -0.03421666667  6
+      CPj CP -0.03529666667  6
+      CNk CN 0.1540636667    6
+      Cc1 C  -0.1134096667   6
+      Cc2 C  -0.129058       6
+      Cc3 C  -0.08079733333  6
+      Cc4 C  -0.203816       6
+      Cc5 C  -0.1113983333   6
+      Cc6 C  -0.13094        6
+      Cc7 C  -0.07834433333  6
+      Cc8 C  -0.205519       6
+      Hc1 H  0.1069776667    6
+      Hc2 H  0.100049        6
+      Hc3 H  0.09973933333   6    
+      Hc4 H  0.110709        6
+      Hc5 H  0.1066803333    6
+      Hc6 H  0.099705        6
+      Hc7 H  0.09918033333   6
+      Hc8 H  0.1112566667    6
+  
+      
+   [ bonds ]
+      CNh CPi ;first ring 
+      CPi Cc1
+      Cc1 Cc2
+      Cc2 Cc3
+      Cc3 Cc4
+      Cc4 CNh
+
+      CNk CPj ;second ring
+      CPj Cc5
+      Cc5 Cc6
+      Cc6 Cc7
+      Cc7 Cc8
+      Cc8 CNk
+      
+      CNh N3  ;pyrole
+      CNk N3
+      CPi CPj
+      
+      Cc1 Hc1 ;hydrogens
+      Cc2 Hc2
+      Cc3 Hc3
+      Cc4 Hc4
+      Cc5 Hc5
+      Cc6 Hc6
+      Cc7 Hc7
+      Cc8 Hc8
+      
+      N3 -CZ3
+
+     [ dihedrals ]
+      CNh  N3  -CZ3 -C33 ; 75 74 25 24
+
+     [ impropers ] ;
+      CNh  CPi  Cc1  Cc2 ;first ring
+      CPi  Cc1  Cc2  Cc3 
+      Cc1  Cc2  Cc3  Cc4 
+      Cc2  Cc3  Cc4  CNh 
+      Cc3  Cc4  CNh  CPi
+      Cc4  CNh  CPi  Cc1
+
+      Cc1  CPi  Cc2  Hc1 
+      Cc2  Cc1  Cc3  Hc2 
+      Cc3  Cc2  Cc4  Hc3 
+      Cc4  Cc3  CNh  Hc4 
+  
+      CNk  CPj  Cc5  Cc6 ;second ring
+      CPj  Cc5  Cc6  Cc7 
+      Cc5  Cc6  Cc7  Cc8 
+      Cc6  Cc7  Cc8  CNk 
+      Cc7  Cc8  CNk  CPj 
+      Cc8  CNk  CPj  Cc5 
+        
+      Cc5  CPj  Cc6  Hc5 
+      Cc6  Cc5  Cc7  Hc6 
+      Cc7  Cc6  Cc8  Hc7 
+      Cc8  Cc7  CNk  Hc8
+      
+      N3   CNh  CPi  CPj ;pyrole
+      CNh  CPi  CPj  CNk
+      CPi  CPj  CNk  N3  
+      CPj  CNk  N3   CNh
+      CNk  N3   CNh  CPi
+      
+      CNh  CPi  Cc4  N3 ; connection
+      CNk  CPj  Cc8  N3
+      CPi  CNh  CPj  Cc1
+      CPj  CNk  CPi  Cc5
+      
+
+      N3   CNh  CNk -CZ3 ; connection to BIP
+     
+     [ exclusions ]
+      Hc4   -H33 
+      Hc4   -H35
+      Hc8   -H33
+      Hc8   -H35

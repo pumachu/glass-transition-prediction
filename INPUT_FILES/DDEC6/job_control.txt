@@ -1,0 +1,18 @@
+<periodicity along A, B, and C vectors>
+.false.
+.false.
+.false.
+</periodicity along A, B, and C vectors>
+
+<atomic densities directory complete path>
+[PATH_to_chargemol_09_26_2017/atomic_densities/]
+</atomic densities directory complete path>
+
+<input filename>
+[molecule_name].wfx
+</input filename>
+
+<charge type>
+DDEC6
+</charge type>
+

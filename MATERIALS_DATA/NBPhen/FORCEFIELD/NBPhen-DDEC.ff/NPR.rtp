@@ -1,0 +1,72 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ NPR ]
+  [ atoms ]
+    CZm CZ  0.03195555405  5
+    CB1 CB  0.07435105405   5
+    CB2 CB  0.07283305405   5
+    Cb3 C   -0.1392609459   5    
+    Cb4 C   -0.1161714459   5
+    Cb5 C   -0.1837414459   5
+    Cb6 C   -0.1413169459   5
+    Cb7 C   -0.09944144595  5
+    Cb8 C   -0.09398944595  5
+    Cb9 C   -0.1445139459   5
+    Hb3 H   0.1059580541    5    
+    Hb4 H   0.1207780541    5
+    Hb5 H   0.1043790541    5
+    Hb6 H   0.1034100541    5
+    Hb7 H   0.1002620541    5
+    Hb8 H   0.1003305541    5
+    Hb9 H   0.1040950541    5
+      
+  [ bonds ]
+    CZm Cb5
+    Cb5 CB1
+    CB1 CB2
+    CB2 Cb3
+    Cb3 Cb4
+    Cb4 CZm
+    CB1 Cb6
+    Cb6 Cb7 
+    Cb7 Cb8
+    Cb8 Cb9
+    Cb9 CB2
+    
+    Cb3 Hb3
+    Cb4 Hb4
+    Cb5 Hb5
+    Cb6 Hb6
+    Cb7 Hb7
+    Cb8 Hb8
+    Cb9 Hb9
+    
+  [ impropers ]
+    CZm  Cb5  CB1  CB2
+    Cb5  CB1  CB2  Cb3
+    CB1  CB2  Cb3  Cb4
+    CB2  Cb3  Cb4  CZm
+    Cb3  Cb4  CZm  Cb5
+    Cb4  CZm  Cb5  CB1    
+
+    CB1  Cb6  Cb7  Cb8
+    Cb6  Cb7  Cb8  Cb9
+    Cb7  Cb8  Cb9  CB2
+    Cb8  Cb9  CB2  CB1
+    Cb9  CB2  CB1  Cb6
+    CB2  CB1  Cb6  Cb7
+
+    CB1  Cb5  CB2  Cb6
+    CB2  CB1  Cb3  Cb9
+      
+    Cb3  CB2  Cb4  Hb3 
+    Cb4  Cb3  CZm  Hb4 
+    Cb5  CZm  CB1  Hb5
+    Cb6  CB1  Cb7  Hb6 
+    Cb7  Cb6  Cb8  Hb7 
+    Cb8  Cb7  Cb9  Hb8
+    Cb9  Cb8  CB2  Hb9
+    CZm  Cb5  Cb4 -CZd
+

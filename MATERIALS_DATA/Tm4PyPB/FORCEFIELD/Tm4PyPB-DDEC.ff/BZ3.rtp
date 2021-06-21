@@ -1,0 +1,93 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BZ3 ]
+  [ atoms ]
+    C1   C   -0.140026  4     
+    CCc  CC  0.072596   4
+    C3   C   -0.185774  4
+    CC4  CC  0.066735   4
+    C5   C   -0.141671  4
+    C6   C   -0.079494  4
+    H1   H   0.107845   4
+    H3   H   0.106992   4
+    H5   H   0.106937   4
+    H6   H   0.105474   4
+    C7   C   -0.210919  4
+    CC8  CC  0.111241   4
+    C9   CD  -0.209653  4
+    Cd   C   0.102667   4
+    N    N   -0.300971  4
+    Ce   C   0.104034   4
+    H7   H   0.114308   4
+    H9   H   0.116767   4
+    Hd   H   0.078883   4
+    He   H   0.077593   4
+
+  [ bonds ]
+    C1   CCc    ;first ring
+    CCc  C3
+    C3   CC4
+    CC4  C5
+    C5   C6
+    C6   C1
+    C1   H1
+    C3   H3 
+    C5   H5
+    C6   H6
+   
+    CC4  CC8   ; link
+
+    C7   CC8    ; second ring
+    CC8  C9
+    C9   Cd
+    Cd   N
+    N    Ce
+    Ce   C7
+    C7   H7
+    C9   H9
+    Cd   Hd
+    Ce   He
+    
+  [ dihedrals ]
+    C3   CC4  CC8  C9  ; 52 53 61 62 
+    
+  [ impropers ]  
+    C1   CCc  C3   CC4
+    CCc  C3   CC4  C5
+    C3   CC4  C5   C6
+    CC4  C5   C6   C1
+    C5   C6   C1   CCc
+    C6   C1   CCc  C3
+
+    C1   C6   CCc  H1
+    CCc  C1   C3  -CC6  ;  link to BCZ
+    C3   CCc  CC4  H3
+    CC4  C3   C5   CC8       
+    C5   CC4  C6   H5
+    C6   C5   C1   H6 
+
+    C7   CC8  C9   Cd
+    CC8  C9   Cd   N
+    C9   Cd   N    Ce
+    Cd   N    Ce   C7
+    N    Ce   C7   CC8
+    Ce   C7   CC8  C9
+
+    C7   Ce   CC8  H7
+    CC8  C7   C9   CC4
+    C9   CC8  Cd   H9
+    Cd   C9   N    Hd
+    Ce   N    C7   He
+       
+  [ exclusions ]
+    H1  -Ha
+    H1  -Hc
+    H3  -Ha
+    H3  -Hc
+    H3   H7
+    H3   H9
+    H5   H7
+    H5   H9
+

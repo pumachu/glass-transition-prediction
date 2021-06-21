@@ -1,0 +1,39 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ MEA ]
+  [ atoms ]
+    CM1  CM  -0.3926580367  5
+    HM1  HM  0.1241432966    5
+    HM2  HM  0.1225322966    5
+    HM3  HM  0.1229382966    5
+
+  [ bonds ]
+    CM1  HM1
+    CM1  HM2
+    CM1  HM3
+
+[ MEB ]
+  [ atoms ]
+    CM2  CM  -0.3926580367  8
+    HM1  HM  0.1241432966    8
+    HM2  HM  0.1225322966    8
+    HM3  HM  0.1229382966    8
+
+  [ bonds ]
+    CM2  HM1
+    CM2  HM2
+    CM2  HM3
+
+[ MEC ]
+  [ atoms ]
+    CM3  CM   -0.3926580367  11
+    HM1  HM   0.1241432966   11
+    HM2  HM   0.1225322966   11
+    HM3  HM   0.1229382966   11
+
+  [ bonds ]
+    CM3  HM1
+    CM3  HM2
+    CM3  HM3

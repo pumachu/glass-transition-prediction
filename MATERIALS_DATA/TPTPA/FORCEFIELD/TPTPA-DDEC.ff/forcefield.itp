@@ -1,0 +1,91 @@
+[ defaults ]
+; nbfunc        comb-rule       gen-pairs       fudgeLJ fudgeQQ
+  1             3               yes              0.5     0.5
+
+[ atomtypes ]
+; name      mass      charge     ptype     sigma        eps
+  C       12.01100     0.000       A    3.53131e-01  2.59188e-01
+  H       1.00800      0.000       A    2.23707e-01  1.50473e-01
+  NT      14.00670     0.000       A    3.12134e-01  4.20972e-01     
+  CP      12.01100     0.000       A    3.56984e-01  2.59188e-01 
+  ST      32.06000     0.000       A    3.45568e-01  9.43051e-01
+  CSZ     12.01100     0.000       A    3.53602e-01  2.59188e-01
+  CZ      12.01100     0.000       A    3.43405e-01  2.59188e-01
+
+[ bondtypes ]
+   C    C        1    0.14000    392459.2   ;TPA
+   C	CZ 	 1    0.14000    392459.2
+   C    H        1    0.10863    307105.6
+   CZ   NT       1    0.14211    349782.4  
+
+   ST   CSZ      1    0.16720    209200.0 
+   CSZ  CP       1    0.13770    456892.8 
+   CP   CP       1    0.14322    392459.2 
+   CP   H        1    0.10863    307105.6
+
+   
+   CSZ  CZ      1    0.14700     322168.0 ; thiohene-benzene link
+
+
+[ angletypes ]
+   CZ  NT  CZ            1       120.0000000        400.000 ; fitted 
+   NT  CZ  C             1       120.0000000        286.000 ; fitted 
+   C   C   CZ   	 1       120.0000000        527.000
+   C   CZ  C             1       120.0000000        527.000
+   C   C   C 		 1	 120.0000000        527.000
+   CZ  C   H             1       120.0000000        292.880 
+   C   C   H		 1       120.0000000        292.880
+
+; link TPA and thiophene
+   C    CZ    CZ      1    120.00000    527.184 ;  
+   CZ   CSZ   ST      1    121.53700    527.184 ;   
+   CZ   CSZ   CP      1    128.11100    527.184 ;
+
+; thiophene
+   ST    CSZ   CP      1    111.55300    585.760 ;
+   CSZ   CP    CP      1    111.56000    585.769 ;
+   CSZ   ST    CSZ     1     93.83100    619.232 ;
+   CSZ   CZ    C       1    120.00000    527.000
+   CSZ   CP    H       1    122.73400    292.880
+   CP    CP    H       1    123.85200    292.880
+ 
+[ dihedraltypes ]
+   C   CZ  NT  CZ      3    16.40234313	5.56173948	-29.07873063	-13.65746902	16.76414227	9.97951424   ; between benzene in TPA
+   C   CZ  CSZ ST      3    10.26176158   0.4871971  -23.53114669  -0.67519741  13.40486454   0.35392127   ; between TPA and thiophene
+   CP  CSZ CZ  C       3     9.73040616  -0.21078878 -24.01404027   0.3682531   14.07236783  -0.02599385   ; between thiophene and benene
+
+
+; improper TPA
+   NT  CZ  CZ  CZ        2       0.00000             25.0000 ; fitted
+   CZ  C   C   NT        2       0.00000            740.0000 ; fitted
+   C   C   C   C         2       0.00000            167.4000
+   C   C   C   CZ        2       0.00000            167.4000
+   C   C   CZ  C         2       0.00000            167.4000
+   C   CZ  C   C         2       0.00000            167.4000
+   CZ  C   C   CZ        2       0.00000            167.4000
+   C   C   C   H         2       0.00000            167.4000
+   C   C   CZ  H         2       0.00000            167.4000
+   C   CZ  C   H         2       0.00000            167.4000
+
+; improper link TPA thiophene
+   CZ  C   C   CSZ       2       0.00000            500.0000 
+   CSZ ST  CP  CZ        2       0.00000            500.0000 
+   CSZ CP  ST  CZ        2       0.00000            500.0000 
+
+; improper thiophene
+   CSZ  CP  CP  CSZ      2       0.00000            167.4000
+   CP   CP  CSZ ST       2       0.00000            167.4000
+   CP   CSZ ST  CSZ      2       0.00000            167.4000
+   CSZ  ST  CSZ CP       2       0.00000            167.4000
+   ST   CSZ CP  CP       2       0.00000            167.4000
+   CP   CP  CSZ H        2       0.00000            167.4000
+   CP   CSZ CP  H        2       0.00000            167.4000
+
+
+; improper link thiophene benzene
+; defined before
+
+; benzene
+; defined before
+
+

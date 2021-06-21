@@ -1,0 +1,93 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BPB ]
+  [ atoms ]
+    CZb  CZ    -0.01397097101  3
+    C2   C     -0.1495976377    3
+    CC3  CC    0.06174136232    3
+    C4   C     -0.1248993043    3
+    C5   C     -0.08929097101   3
+    C6   C     -0.1061096377    3
+    H2   H     0.1076736957     3
+    H4   H     0.104247029      3
+    H5   H     0.1025836957     3
+    H6   H     0.1106476957     3
+    CC7  CC    0.06482469565    3
+    C8   C     -0.1421943043    3
+    C9   C     -0.08914397101   3
+    C10  C     -0.09954297101   3
+    C11  C     -0.08835597101   3
+    C12  C     -0.144673971     3
+    H8   H     0.1072783623     3
+    H9   H     0.1000816957     3
+    H10  H     0.09889302899    3
+    H11  H     0.100074029      3
+    H12  H     0.102612029      3
+
+  [ bonds ]
+    CZb  C2
+    C2   CC3
+    CC3  C4
+    C4   C5
+    C5   C6
+    C6   CZb
+    
+    C2   H2
+    CC3  CC7
+    C4   H4
+    C5   H5
+    C6   H6
+    
+    CC7  C8
+    C8   C9
+    C9   C10
+    C10  C11
+    C11  C12
+    C12  CC7
+    
+    C8   H8
+    C9   H9
+    C10  H10
+    C11  H11
+    C12  H12
+    
+  [ dihedrals ]
+    C2   CC3  CC7  C8
+    
+  [ impropers ]  
+    CZb  C2   CC3  C4
+    C2   CC3  C4   C5
+    CC3  C4   C5   C6
+    C4   C5   C6   CZb
+    C5   C6   CZb  C2
+    C6   CZb  C2   CC3
+    
+    C2   CZb  CC3  H2
+    C4   CC3  C5   H4
+    C5   C4   C6   H5
+    C6   C5   CZb  H6
+    
+    CC3  C2   C4   CC7
+    CC7  C8   C12  CC3
+
+    CC7  C8   C9   C10
+    C8   C9   C10  C11
+    C9   C10  C11  C12
+    C10  C11  C12  CC7
+    C11  C12  CC7  C8
+    C12  CC7  C8   C9
+    
+    C8   CC7  C9   H8
+    C9   C8   C10  H9
+    C10  C9   C11  H10
+    C11  C10  C12  H11
+    C12  CC7  C11  H12
+
+  [ exclusions ]
+    H2  H8
+    H2  H12
+    H4  H8
+    H4  H12
+

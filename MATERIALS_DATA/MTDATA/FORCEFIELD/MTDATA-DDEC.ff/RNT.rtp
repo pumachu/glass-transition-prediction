@@ -1,0 +1,62 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[RNT]
+   [ atoms ]
+      NT3 NT -0.22180037   10
+      CZ8 CZ 0.21235463     10
+      Ca2 C  -0.26595237    10
+      Ca3 C  0.18026363     10
+      Ca4 C  -0.1936470367  10
+      Ca5 C  -0.0664370367  10
+      Ca6 C  -0.2069450367  10
+      Ha2 H  0.1166529633   10
+      Ha4 H  0.10058263     10
+      Ha5 H  0.0983119633   10
+      Ha6 H  0.1173282966   10
+       
+   [ bonds ]
+     -CZ3 NT3
+      NT3 CZ8
+
+      CZ8 Ca2           ; first ring
+      Ca2 Ca3
+      Ca3 Ca4
+      Ca4 Ca5
+      Ca5 Ca6
+      Ca6 CZ8
+      Ca2 Ha2           ; hydrogens
+      Ca4 Ha4
+      Ca5 Ha5
+      Ca6 Ha6
+
+      Ca3 +CM3
+
+     [ dihedrals ]
+      CZ8  NT3 +CZ9 +Ca6    ; 85 84 99 104
+     -CZ3  NT3  CZ8  Ca2    ; 25 84 85  86
+     +CZ9  NT3 -CZ3 -C35    ; 99 84 25  26 
+
+      Ca2  Ca3 +CM3 +HM1    ; 86 87 95  96
+
+     [ impropers ]
+      NT3  CZ8 +CZ9 -CZ3
+      NT3 -CZ3  CZ8 +CZ9
+      NT3 +CZ9 -CZ3  CZ8
+
+      CZ8  Ca2  Ca3  Ca4     ; benzene ring
+      Ca2  Ca3  Ca4  Ca5 
+      Ca3  Ca4  Ca5  Ca6 
+      Ca4  Ca5  Ca6  CZ8
+      Ca5  Ca6  CZ8  Ca2 
+      Ca6  CZ8  Ca2  Ca3 
+
+      CZ8  Ca2  Ca6  NT3     ; side atoms
+      
+      Ca2  CZ8  Ca3  Ha2 
+      Ca4  Ca3  Ca5  Ha4 
+      Ca5  Ca4  Ca6  Ha5 
+      Ca6  Ca5  CZ8  Ha6 
+
+      Ca3  Ca2  Ca4 +CM3 

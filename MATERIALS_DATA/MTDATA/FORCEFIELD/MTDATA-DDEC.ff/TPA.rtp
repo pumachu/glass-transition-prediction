@@ -1,0 +1,131 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[TPA]
+   [ atoms ]
+      NCC NT  -0.2202030367  1
+      CZa CZ  0.1867889633    1
+      C12 C   -0.17412137     1
+      C13 C   -0.16521437     1
+      CZ1 CZ  0.1820959633    1
+      C15 C   -0.1672437034   1
+      C16 C   -0.17380037     1
+      H12 H   0.1166819633    1
+      H13 H   0.1178619633    1
+      H15 H   0.11946363      1
+      H16 H   0.1175779633    1
+      CZb CZ  0.1867889633    2
+      C22 C   -0.17412137     2
+      C23 C   -0.16521437     2
+      CZ2 CZ  0.1820959633    2
+      C25 C   -0.1672437034   2
+      C26 C   -0.17380037     2
+      H22 H   0.1166819633    2
+      H23 H   0.1178619633    2
+      H25 H   0.11946363      2
+      H26 H   0.1175779633    2
+      CZc CZ  0.1867889633    3
+      C32 C   -0.17412137     3
+      C33 C   -0.16521437     3
+      CZ3 CZ  0.1820959633    3
+      C35 C   -0.1672437034   3
+      C36 C   -0.17380037     3
+      H32 H   0.1166819633    3
+      H33 H   0.1178619633    3
+      H35 H   0.11946363      3
+      H36 H   0.1175779633    3
+
+   [ bonds ]
+      NCC CZa
+      NCC CZb
+      NCC CZc
+
+      CZa C12          ; first ring
+      C12 C13
+      C13 CZ1
+      CZ1 C15
+      C15 C16
+      C16 CZa
+      C12 H12
+      C13 H13
+      C15 H15
+      C16 H16
+
+      CZb C22          ; second ring
+      C22 C23
+      C23 CZ2
+      CZ2 C25
+      C25 C26
+      C26 CZb
+      C22 H22
+      C23 H23
+      C25 H25
+      C26 H26
+
+      CZc C32          ; third ring
+      C32 C33
+      C33 CZ3
+      CZ3 C35
+      C35 C36
+      C36 CZc
+      C32 H32
+      C33 H33
+      C35 H35
+      C36 H36
+
+[ dihedrals ]
+      CZc  NCC  CZb  C22    ; 22 1 12 13
+      CZa  NCC  CZc  C36    ; 2  1 22 27 
+      CZb  NCC  CZa  C12    ; 12 1 2 3
+     
+[ impropers ]
+      NCC  CZa  CZb  CZc          ; specify three impropers around NCC
+      NCC  CZb  CZc  CZa
+      NCC  CZc  CZa  CZb
+
+      CZa  C12  C13  CZ1          ; first ring
+      C12  C13  CZ1  C15
+      C13  CZ1  C15  C16
+      CZ1  C15  C16  CZa
+      C15  C16  CZa  C12
+      C16  CZa  C12  C13
+         
+      CZa  C16  C12  NCC 
+
+      C12  CZa  C13  H12
+      C13  C12  CZ1  H13 
+      C15  CZ1  C16  H15 
+      C16  C15  CZa  H16 
+      
+      CZb  C22  C23  CZ2          ; second ring
+      C22  C23  CZ2  C25
+      C23  CZ2  C25  C26
+      CZ2  C25  C26  CZb
+      C25  C26  CZb  C22
+      C26  CZb  C22  C23
+
+      CZb  C26  C22  NCC
+
+      C22  CZb  C23  H22
+      C23  C22  CZ2  H23
+      C25  CZ2  C26  H25
+      C26  C25  CZb  H26
+
+      CZc  C32  C33  CZ3          ; third ring
+      C32  C33  CZ3  C35
+      C33  CZ3  C35  C36
+      CZ3  C35  C36  CZc
+      C35  C36  CZc  C32
+      C36  CZc  C32  C33
+
+      CZc  C36  C32  NCC
+
+      C32  CZc  C33  H32
+      C33  C32  CZ3  H33
+      C35  CZ3  C36  H35
+      C36  C35  CZc  H36
+     
+      CZ1  C13  C15 +NT1  
+      CZ2  C23  C25 +NT2 
+      CZ3  C33  C35 +NT3 

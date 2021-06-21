@@ -1,0 +1,60 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ TRZ ]
+  [ atoms ]
+    N1   NZ   -0.457575  1
+    CZ1  CZ   0.441511   1
+    N2   NZ   -0.457575  1
+    CZ2  CZ   0.441511   1
+    N3   NZ   -0.457575  1
+    CZ3  CZ   0.441511   1
+
+  [ bonds ]
+    N1   CZ1
+    CZ1  N2
+    N2   CZ2
+    CZ2  N3
+    N3   CZ3
+    CZ3  N1
+
+    CZ1 +CZb
+    CZ2 +CZc
+    CZ3 +CZa
+
+  [ dihedrals ]
+    N1  CZ1 +CZb +C2  ;  1  2 18  19
+    N2  CZ2 +CZc +C4  ;  3  4 29  36 
+    N3  CZ3 +CZa +C6  ;  5  6  7  16
+
+
+  [ impropers ]
+    N1   CZ1  N2   CZ2
+    CZ1  N2   CZ2  N3
+    N2   CZ2  N3   CZ3
+    CZ2  N3   CZ3  N1
+    N3   CZ3  N1   CZ1
+    CZ3  N1   CZ1  N2
+    
+    CZ1  N1   N2   +CZb
+    CZ2  N2   N3   +CZc
+    CZ3  N3   N1   +CZa
+
+
+  [ exclusions ]
+      N1 N2
+      N1 N3
+      CZ1 N1
+      CZ1 N2
+      CZ1 CZ2
+      CZ1 N3
+      CZ1 CZ3
+      N2 N3
+      CZ2 N1
+      CZ2 N2
+      CZ2 N3
+      CZ2 CZ3
+      CZ3 N1
+      CZ3 N2
+      CZ3 N3

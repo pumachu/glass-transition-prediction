@@ -1,0 +1,209 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ DRA ]
+  [ atoms ]
+    NC4  NT   -0.220282 9
+    CZa  CZ   0.208596  9
+    C12  C    -0.198546 9
+    C13  C    -0.076445 9
+    C14  C    -0.12208  9
+    C15  C    -0.071031 9
+    C16  C    -0.193963 9
+    H12  H    0.108044  9
+    H13  H    0.098557  9
+    H14  H    0.099894  9
+    H15  H    0.097544  9
+    H16  H    0.114569  9
+    CZb  CZ   0.200729  10
+    C22  C    -0.191479 10
+    C23  C    -0.078732 10
+    C24  C    -0.121941 10
+    C25  C    -0.075373 10
+    C26  C    -0.187013 10
+    H22  H    0.117683  10
+    H23  H    0.100942  10
+    H24  H    0.09912   10
+    H25  H    0.099164  10
+    H26  H    0.115372  10
+
+  [ bonds ]
+    NC4 CZa
+    NC4 CZb
+
+    CZa C12
+    C12 C13
+    C13 C14
+    C14 C15
+    C15 C16
+    C16 CZa
+    
+    C12 H12
+    C13 H13
+    C14 H14
+    C15 H15
+    C16 H16
+    
+    CZb C22
+    C22 C23
+    C23 C24
+    C24 C25
+    C25 C26
+    C26 CZb
+    
+    C22 H22
+    C23 H23
+    C24 H24
+    C25 H25
+    C26 H26
+
+  [ dihedrals ]
+   -C12 -CZ4 NC4  CZb  ; 31 30 107 119  
+    C22  CZb NC4  CZa  ; 120 119 107 108
+    C16  CZa NC4 -CZ4  ; 113 108 107 30
+
+  [ impropers ]
+    CZa C12 C13 C14
+    C12 C13 C14 C15
+    C13 C14 C15 C16
+    C14 C15 C16 CZa
+    C15 C16 CZa C12
+    C16 CZa C12 C13
+    
+    CZa C12 C16 NC4
+    C12 CZa C13 H12
+    C13 C12 C14 H13
+    C14 C13 C15 H14
+    C15 C14 C16 H15
+    C16 CZa C15 H16
+
+    CZb C22 C23 C24
+    C22 C23 C24 C25
+    C23 C24 C25 C26
+    C24 C25 C26 CZb
+    C25 C26 CZb C22
+    C26 CZb C22 C23
+    
+    CZb C22 C26 NC4
+    C22 CZb C23 H22
+    C23 C22 C24 H23
+    C24 C23 C25 H24
+    C25 C24 C26 H25
+    C26 CZb C25 H26    
+    
+    NC4 CZa CZb -CZ4
+
+  [ exclusions ] 
+    CZa  C12 
+    CZa  C13 
+    CZa  C14 
+    CZa  C15 
+    CZa  C16 
+    CZa  H12 
+    CZa  H13 
+    CZa  H14 
+    CZa  H15 
+    CZa  H16 
+    C12  C13 
+    C12  C14 
+    C12  C15 
+    C12  C16 
+    C12  H12 
+    C12  H13 
+    C12  H14 
+    C12  H15 
+    C12  H16 
+    C13  C14 
+    C13  C15 
+    C13  C16 
+    C13  H12 
+    C13  H13 
+    C13  H14 
+    C13  H15 
+    C13  H16 
+    C14  C15 
+    C14  C16 
+    C14  H12 
+    C14  H13 
+    C14  H14 
+    C14  H15 
+    C14  H16 
+    C15  C16 
+    C15  H12 
+    C15  H13 
+    C15  H14 
+    C15  H15 
+    C15  H16 
+    C15  H26 
+    C16  H12 
+    C16  H13 
+    C16  H14 
+    C16  H15 
+    C16  H16 
+    H12  H13 
+    H12  H14 
+    H12  H15 
+    H12  H16 
+    H13  H14 
+    H13  H15 
+    H13  H16 
+    H14  H15 
+    H14  H16 
+    H15  H16 
+    CZb  C22 
+    CZb  C23 
+    CZb  C24 
+    CZb  C25 
+    CZb  C26 
+    CZb  H22 
+    CZb  H23 
+    CZb  H24 
+    CZb  H25 
+    CZb  H26 
+    C22  C23 
+    C22  C24 
+    C22  C25 
+    C22  C26 
+    C22  H22 
+    C22  H23 
+    C22  H24 
+    C22  H25 
+    C22  H26 
+    C23  C24 
+    C23  C25 
+    C23  C26 
+    C23  H22 
+    C23  H23 
+    C23  H24 
+    C23  H25 
+    C23  H26 
+    C24  C25 
+    C24  C26 
+    C24  H22 
+    C24  H23 
+    C24  H24 
+    C24  H25 
+    C24  H26 
+    C25  C26 
+    C25  H22 
+    C25  H23 
+    C25  H24 
+    C25  H25 
+    C25  H26 
+    C26  H22 
+    C26  H23 
+    C26  H24 
+    C26  H25 
+    C26  H26 
+    H22  H23 
+    H22  H24 
+    H22  H25 
+    H22  H26 
+    H23  H24 
+    H23  H25 
+    H23  H26 
+    H24  H25 
+    H24  H26 
+    H25  H26 
+

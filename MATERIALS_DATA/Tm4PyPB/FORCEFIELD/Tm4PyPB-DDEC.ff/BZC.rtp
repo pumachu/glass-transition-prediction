@@ -1,0 +1,52 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BZC ]
+  [ atoms ]
+     C1    C   -0.193388  1
+     CC2  CC   0.082794   1
+     C3    C   -0.193388  1
+     CC4  CC   0.082794   1
+     C5    C   -0.193388  1
+     CC6  CC   0.082794   1
+     Ha    H   0.107028   1
+     Hb    H   0.107028   1
+     Hc    H   0.107028   1
+
+  [ bonds ]
+    C1   CC2
+    CC2  C3
+    C3   CC4
+    CC4  C5
+    C5   CC6
+    CC6  C1
+    C1   Ha
+    C3   Hb 
+    C5   Hc
+
+    CC2 +CCb  ;  link to BZ1
+    CC4 +CCa  ;  link to BZ2
+    CC6 +CCc  ;  link to BZ3
+
+    
+  [ dihedrals ]
+    C3   CC4  +CCa  +C3  ; link to BZ1
+    C1   CC2  +CCb  +C3  ; link to BZ2
+    C5   CC6  +CCc  +C3  ; link to BZ3
+    
+  [ impropers ]  
+    C1   CC2  C3   CC4
+    CC2  C3   CC4  C5
+    C3   CC4  C5   CC6
+    CC4  C5   CC6  C1
+    C5   CC6  C1   CC2
+    CC6  C1   CC2  C3
+
+    C1   CC6  CC2  Ha
+    CC2  C1   C3  +CCb  ;  link to BZ1
+    C3   CC2  CC4  Hb
+    CC4  C3   C5  +CCa  ;  link to BZ2     
+    C5   CC4  CC6  Hc
+    CC6  C5   C1  +CCc  ;  link to BZ3
+

@@ -1,0 +1,1075 @@
+   62
+ nonperiodic system
+N       3.302820     -0.164307      0.705248       3.743724
+C       3.921266      1.028642      0.348459       4.063830
+C       5.219491      0.753054     -0.117800       4.105775
+C       5.395480     -0.680834     -0.034341       4.087734
+C       4.192809     -1.207474      0.475039       4.059253
+C       3.445166      2.334253      0.428985       4.084101
+C       4.286639      3.353258      0.017881       4.060191
+C       5.586758      3.108195     -0.461448       4.077954
+C       6.047066      1.796531     -0.521066       4.014389
+C       6.444054     -1.540466     -0.355089       4.065403
+C       6.277179     -2.902712     -0.169086       4.125325
+C       5.070373     -3.410998      0.326612       4.111286
+C       4.012867     -2.577230      0.653169       4.081094
+H       2.449018      2.549408      0.795873       1.007728
+H       3.926012      4.375611      0.047684       1.001071
+H       7.057760      1.591466     -0.857842       0.996731
+H       7.375319     -1.146518     -0.746939       0.986724
+H       7.083893     -3.584088     -0.412292       0.999053
+H       4.957383     -4.481436      0.456163       0.988002
+H       3.078581     -2.977578      1.027404       1.011835
+C       1.779650     -0.910238      2.447560       4.027031
+C       1.989445     -0.293926      1.216655       4.058032
+C       0.908187      0.195595      0.488492       4.024539
+C      -0.377689      0.076613      0.998173       4.094269
+C      -0.591355     -0.547798      2.221351       4.087929
+C       0.488951     -1.044789      2.940873       4.091209
+H       2.631125     -1.273843      3.010852       0.980659
+H       1.083839      0.660277     -0.474708       0.979502
+H      -1.216677      0.461663      0.430147       0.985031
+H      -1.597020     -0.646779      2.612858       0.989478
+H       0.329031     -1.527991      3.897829       0.984168
+C      10.084689      7.896130     -5.394370       4.091976
+C      11.416605      8.216938     -5.160280       4.088760
+C      11.889376      8.293016     -3.855485       4.095433
+C      11.039512      8.039635     -2.787378       4.026778
+C       9.702970      7.729307     -3.024800       4.059008
+C       9.223822      7.662578     -4.330555       4.021965
+H       9.709045      7.840139     -6.409544       0.984527
+H      12.084342      8.407034     -5.992390       0.989300
+H      12.928354      8.537490     -3.666845       0.984332
+H      11.403120      8.073953     -1.767024       0.980428
+H       8.178268      7.433843     -4.501030       0.983351
+N       8.830720      7.480702     -1.938311       3.748140
+C       8.087010      6.322431     -1.742500       4.063292
+C       7.342286      6.448232     -0.555788       4.107471
+C       7.655727      7.748868     -0.004224       4.089398
+C       8.573467      8.352028     -0.885768       4.059814
+C       8.036831      5.159928     -2.506556       4.088110
+C       7.215183      4.136145     -2.068266       4.057581
+C       6.451948      4.235791     -0.890231       4.071913
+C       6.527011      5.401934     -0.135056       4.010730
+C       7.233008      8.438969      1.129981       4.068105
+C       7.724477      9.712510      1.363926       4.128543
+C       8.626991     10.302594      0.470751       4.114216
+C       9.062652      9.637255     -0.663986       4.077486
+H       8.616040      5.057793     -3.416117       1.008301
+H       7.141381      3.231870     -2.662380       0.997578
+H       5.970219      5.483940      0.792419       0.995777
+H       6.527483      7.984494      1.816769       0.986058
+H       7.406644     10.261394      2.242512       0.999418
+H       8.992586     11.304007      0.667977       0.989620
+H       9.753837     10.102507     -1.356150       1.010648
+    
+ Chargemol version 3.5 September 26, 2017.
+ See ddec.sourceforge.net for latest version.
+    
+    
+ The sum of bond orders (SBO) for each atom in the unit cell are listed above.
+ All bond orders greater than     0.001000 are printed below.
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      1 ( N  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     1.1384    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0683    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0681    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     1.1368    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0470    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0476    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0647    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     1.0729    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0648    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.743724
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      2 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     1.1384    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     1.1756    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0725    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0718    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     1.3670    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0639    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0210    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0573    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0144    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.063830
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      3 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0683    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     1.1756    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     1.1480    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0724    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0590    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0258    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0570    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     1.4175    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0277    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.105775
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      4 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0681    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0725    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     1.1480    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     1.1720    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0455    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     1.3993    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.0642    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0578    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0266    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.087734
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      5 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     1.1368    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0718    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0724    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     1.1720    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0555    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.0624    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     1.3687    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0238    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0142    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.059253
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      6 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0470    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     1.3670    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0590    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     1.5367    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0553    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.9110    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0344    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0093    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.084101
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      7 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0639    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0258    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     1.5367    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     1.3272    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0677    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0314    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.9022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0614    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0255    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0137    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.060191
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      8 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0210    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0570    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0553    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     1.3272    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     1.3835    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0262    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0257    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     1.0345    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0103    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.077954
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #      9 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0573    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     1.4175    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0455    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0677    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     1.3835    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0103    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.8958    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0040    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0258    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0026    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0147    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.014389
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     10 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     1.3993    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0555    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0103    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     1.5219    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0220    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.9121    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( H  ) with bond order =     0.0318    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.065403
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     11 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0642    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     1.5219    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     1.4599    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0625    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( H  ) with bond order =     0.9290    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( H  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.125325
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     12 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0624    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     1.4599    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     1.5241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( H  ) with bond order =     0.0313    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( H  ) with bond order =     0.9155    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0309    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.111286
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     13 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0476    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0578    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     1.3687    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0220    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.0625    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     1.5241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( H  ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.9148    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0179    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0096    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.081094
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     14 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.9110    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0314    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0083    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0185    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.007728
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     15 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0344    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.9022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0262    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0146    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.001071
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     16 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0277    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0257    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.8958    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0138    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.996731
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     17 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0266    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0040    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.9121    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.986724
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     18 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    10 ( C  ) with bond order =     0.0318    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.9290    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.0313    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    17 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( H  ) with bond order =     0.0032    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.999053
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     19 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    11 ( C  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.9155    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0336    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    18 ( H  ) with bond order =     0.0032    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0033    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.988002
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     20 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0238    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    12 ( C  ) with bond order =     0.0309    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.9148    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    19 ( H  ) with bond order =     0.0033    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0189    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.011835
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     21 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0647    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0142    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0189    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     1.3325    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0653    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.0632    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     1.4954    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.8931    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( H  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.027031
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     22 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     1.0729    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     3 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     4 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0179    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0083    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     1.3325    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     1.3310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0547    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.0209    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0546    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0235    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.058032
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     23 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0648    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0144    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0185    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0653    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     1.3310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     1.4955    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.0633    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.8924    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( H  ) with bond order =     0.0316    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.024539
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     24 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0547    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     1.4955    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     1.4791    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0292    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( H  ) with bond order =     0.9161    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.094269
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     25 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0632    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0209    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0633    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     1.4791    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     1.4773    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( H  ) with bond order =     0.9215    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( H  ) with bond order =     0.0308    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.087929
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     26 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     1.4954    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0546    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0620    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     1.4773    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0292    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( H  ) with bond order =     0.0306    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( H  ) with bond order =     0.9150    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.091209
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     27 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     5 ( C  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    13 ( C  ) with bond order =     0.0096    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    20 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.8931    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0292    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.980659
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     28 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     1 ( N  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     2 ( C  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     6 ( C  ) with bond order =     0.0093    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    14 ( H  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    22 ( C  ) with bond order =     0.0235    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.8924    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0292    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.979502
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     29 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    23 ( C  ) with bond order =     0.0316    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.9161    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    28 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.985031
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     30 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    24 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.9215    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.0306    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    29 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    31 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.989478
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     31 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    21 ( C  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    25 ( C  ) with bond order =     0.0308    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    26 ( C  ) with bond order =     0.9150    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    27 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    30 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.984168
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     32 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     1.4787    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0622    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0547    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     1.4934    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    38 ( H  ) with bond order =     0.9157    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    39 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0294    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.091976
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     33 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     1.4787    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     1.4792    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0632    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0210    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0630    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    38 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    39 ( H  ) with bond order =     0.9213    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    40 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.088760
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     34 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0622    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     1.4792    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     1.4967    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0548    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    39 ( H  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    40 ( H  ) with bond order =     0.9155    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0293    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.095433
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     35 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.0632    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     1.4967    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     1.3321    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0650    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    40 ( H  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.8926    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0645    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0143    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0191    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.026778
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     36 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0547    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.0210    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0548    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     1.3321    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     1.3286    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     1.0763    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0178    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0083    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.059008
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     37 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     1.4934    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.0630    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0650    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     1.3286    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    38 ( H  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.8956    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0644    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0143    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0187    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.021965
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     38 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.9157    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    39 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.984527
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     39 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.9213    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    38 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    40 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.989300
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     40 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    33 ( C  ) with bond order =     0.0307    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.9155    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    39 ( H  ) with bond order =     0.0029    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.984332
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     41 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0293    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.8926    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    40 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.980428
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     42 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0294    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.8956    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    38 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0094    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.983351
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     43 ( N  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0645    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     1.0763    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0644    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0098    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     1.1378    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0685    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0682    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     1.1390    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0470    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0474    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        3.748140
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     44 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0143    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     1.1378    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     1.1753    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0726    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0717    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     1.3675    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0641    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0209    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0572    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.063292
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     45 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0685    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     1.1753    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     1.1496    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0726    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0591    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0260    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0571    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     1.4168    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0278    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.107471
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     46 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0682    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0726    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     1.1496    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     1.1713    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0454    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     1.4002    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.0642    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0576    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0266    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.089398
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     47 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0143    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0443    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0031    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0065    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     1.1390    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0717    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0726    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     1.1713    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0556    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.0626    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     1.3674    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0239    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.059814
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     48 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0094    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0470    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     1.3675    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0591    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     1.5402    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0551    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.9112    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0343    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.088110
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     49 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0022    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0618    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0258    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0138    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0641    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0260    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     1.5402    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     1.3234    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0677    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.8987    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.057581
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     50 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0614    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     1.0345    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0209    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0571    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0551    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     1.3234    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     1.3821    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0261    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0257    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.071913
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     51 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0255    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0623    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0026    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0146    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0572    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     1.4168    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0454    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0677    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     1.3821    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.8949    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0040    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.010730
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     52 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0011    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0445    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     1.4002    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0556    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0102    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     1.5241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0220    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.9115    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    60 ( H  ) with bond order =     0.0318    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.068105
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     53 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0642    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0237    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     1.5241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     1.4606    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0624    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    60 ( H  ) with bond order =     0.9294    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    61 ( H  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.128543
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     54 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0241    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0626    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0613    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     1.4606    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     1.5243    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    60 ( H  ) with bond order =     0.0313    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    61 ( H  ) with bond order =     0.9173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.114216
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     55 ( C  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0176    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0178    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0474    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0013    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0014    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0576    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     1.3674    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0220    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.0624    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     1.5243    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    61 ( H  ) with bond order =     0.0334    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.9131    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        4.077486
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     56 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    32 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0083    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    37 ( C  ) with bond order =     0.0187    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    42 ( H  ) with bond order =     0.0043    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    44 ( C  ) with bond order =     0.0236    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.9112    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.0315    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    57 ( H  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.008301
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     57 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0103    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     9 ( C  ) with bond order =     0.0147    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    16 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    48 ( C  ) with bond order =     0.0343    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    49 ( C  ) with bond order =     0.8987    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0261    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    56 ( H  ) with bond order =     0.0036    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.997578
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     58 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number     7 ( C  ) with bond order =     0.0137    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number     8 ( C  ) with bond order =     0.0097    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    15 ( H  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0278    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    50 ( C  ) with bond order =     0.0257    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.8949    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0042    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.995777
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     59 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    45 ( C  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    46 ( C  ) with bond order =     0.0266    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    51 ( C  ) with bond order =     0.0040    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.9115    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    58 ( H  ) with bond order =     0.0049    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    60 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.986058
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     60 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    52 ( C  ) with bond order =     0.0318    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.9294    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.0313    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    59 ( H  ) with bond order =     0.0030    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    61 ( H  ) with bond order =     0.0032    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.999418
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     61 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    53 ( C  ) with bond order =     0.0317    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.9173    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.0334    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    60 ( H  ) with bond order =     0.0032    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    62 ( H  ) with bond order =     0.0033    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        0.989620
+  
+  
+ ===================================================================================
+ Printing BOs for ATOM #     62 ( H  ) in the reference unit cell.
+  
+ Bonded to the (  0,   0,   0) translated image of atom number    34 ( C  ) with bond order =     0.0012    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    35 ( C  ) with bond order =     0.0191    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    36 ( C  ) with bond order =     0.0086    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    41 ( H  ) with bond order =     0.0044    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    43 ( N  ) with bond order =     0.0045    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    47 ( C  ) with bond order =     0.0239    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    54 ( C  ) with bond order =     0.0310    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    55 ( C  ) with bond order =     0.9131    The average spin polarization of this bonding =     0.0000
+ Bonded to the (  0,   0,   0) translated image of atom number    61 ( H  ) with bond order =     0.0033    The average spin polarization of this bonding =     0.0000
+ The sum of bond orders for this atom is SBO =        1.010648
+    
+ 2021/05/26  14:56:52

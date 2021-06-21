@@ -1,0 +1,91 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[BIP]
+
+   [ atoms ]
+      CZa CZ   0.2028480513   3
+      C2  C    -0.1910669487  3
+      C3  C    -0.1229719487  3
+      CC4 CCC  0.04226905128  3
+      C5  C    -0.1152679487  3
+      C6  C    -0.1907684487  3
+      H2  H    0.1156435513   3
+      H3  H    0.1019695513   3
+      H5  H    0.1015675513   3      
+      H6  H    0.1126640513   3
+      CC7 CCC  0.04226905128  4
+      C8  C    -0.1152679487  4
+      C9  C    -0.1907684487  4
+      CZb CZ   0.2028480513   4
+      C11 C    -0.1910669487  4
+      C12 C    -0.1229719487  4
+      H8  H    0.1015675513   4
+      H9  H    0.1126640513   4
+      H11 H    0.1156435513   4
+      H12 H    0.1019695513   4
+
+   [ bonds ]
+      CZa C2 ;first ring
+      C2  C3
+      C3  CC4
+      CC4 C5
+      C5  C6
+      C6  CZa
+      C2  H2
+      C3  H3
+      C5  H5
+      C6  H6
+        
+      CC4 CC7 ;connection
+      
+      CC7 C8  ;second ring
+      C8  C9
+      C9  CZb
+      CZb C11
+      C11 C12
+      C12 CC7
+      C8  H8
+      C9  H9
+      C11 H11
+      C12 H12
+     
+    [ dihedrals ]    
+      C3   CC4  CC7  C8  ; 32 33 40 41  
+
+    [ impropers ]
+      CZa  C2   C6  -NT1
+      CZb  C11  C9  +NT2
+      
+      CZa  C2   C3   CC4 ;first ring
+      C2   C3   CC4  C5  
+      C3   CC4  C5   C6  
+      CC4  C5   C6   CZa 
+      C5   C6   CZa  C2  
+      C6   CZa  C2   C3  
+        
+      CC4  C3   C5   CC7 ;bewteen
+      CC7  C8   C12  CC4
+     
+      CC7  C8   C9   CZb ;second ring 
+      C8   C9   CZb  C11 
+      C9   CZb  C11  C12 
+      CZb  C11  C12  CC7 
+      C11  C12  CC7  C8  
+      C12  CC7  C8   C9    
+      
+      C2   C3   CZa  H2  
+      C3   CC4  C2   H3  
+      C5   C6   CC4  H5  
+      C6   CZa  C5   H6  
+      C8   C9   CC7  H8  
+      C9   CZb  C8   H9  
+      C11  C12  CZb  H11 
+      C12  CC7  C11  H12 
+      
+    [ exclusions ]
+      H3  H8
+      H3  H12
+      H5  H8
+      H5  H12 
+     

@@ -1,0 +1,63 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[BIP]
+   [ atoms ]
+      C13 C  -0.259224019  2
+      CZ3 CZ 0.218208981   2
+      C10 C  -0.184589519  2
+      C11 C  -0.059547019  2
+      CZ4 CZ 0.218208981   2
+      C12 C  -0.184589519  2
+      H13 H  0.140376981   2
+      H10 H  0.127109981   2    
+      H11 H  0.106461981   2
+      H12 H  0.127109981   2
+      
+   [ bonds ]
+      CZ3 C10 ;first ring
+      C10 C11
+      C11 C12
+      C12 CZ4
+      CZ4 C13
+      C13 CZ3
+
+      C10 H10
+      C11 H11
+      C12 H12
+      C13 H13
+
+      CZ3 +N2
+      CZ4 -N1 
+
+     [ impropers ]
+      CZ3  C10  C11  C12 ;first ring
+      C10  C11  C12  CZ4 
+      C11  C12  CZ4  C13 
+      C12  CZ4  C13  CZ3 
+      CZ4  C13  CZ3  C10 
+      C13  CZ3  C10  C11 
+        
+      C10  C11  CZ3  H10 
+      C11  C12  C10  H11 
+      C12  C11  CZ4  H12 
+      C13  CZ3  CZ4  H13 
+      CZ4  C12  C13 -N1 ; connection to LCZ
+      CZ3  C13  C10 +N2 ; connection to RCZ
+
+    [ dihedrals ]
+      C12  CZ4  -N1 -CNc
+      C13  CZ3  +N2 +CNc
+
+    [ exclusions ]
+      H13  -H2
+      H13  -Hb
+      H12  -H2
+      H12  -Hb
+
+      H13  +H2
+      H13  +Hb
+      H10  +H2
+      H10  +Hb
+
+     

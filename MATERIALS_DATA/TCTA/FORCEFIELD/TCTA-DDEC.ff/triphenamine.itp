@@ -1,0 +1,41 @@
+;
+;         ---------- BIP ------------
+;
+
+[ bondtypes ] 
+   C    C                1       0.14000            392459.2
+   C	CZ 		 1       0.14000            392459.2
+   C    H                1       0.10863            307105.6
+   CZ   NT               1       0.14211            349782.4  
+;   C    CCC              1       0.14038            392459.2
+;   CCC  CCC              1       0.14900            392459.2
+   
+
+[ angletypes ]
+   CZ  NT  CZ            1       120.0000000        400.000 ; fitted 
+   NT  CZ  C             1       120.0000000        286.000 ; fitted 
+   C   C   CZ   	 1       120.0000000        527.000
+   C   CZ  C             1       120.0000000        527.000
+   C   C   C 		 1	 120.0000000        527.000
+   C   CZ  N             1       120.0000000        480.000 ; the same as CBP
+
+   CZ  C   H             1       120.0000000        292.880 
+   C   C   H		 1       120.0000000        292.880
+ 
+[ dihedraltypes ]
+   C   CZ  NT  CZ        3       50.6415  1.5540  -28.6706  1.1613  -21.7435  -2.4752 ; second fitted with the points near to the energy minimum
+
+   NT  CZ  CZ  CZ        2       0.00000             25.0000 ; fitted
+   CZ  C   C   NT        2       0.00000            740.0000 ; fitted
+   CZ  C   C   N         2       0.00000            516.0000 ; the same as that from CBP
+
+   C   C   C   C	 2       0.00000            167.4000
+   C   C   C   CZ 	 2       0.00000            167.4000
+   C   C   CZ  C         2       0.00000            167.4000
+   C   CZ  C   C 	 2       0.00000            167.4000
+   CZ  C   C   CZ        2       0.00000            167.4000
+   
+   C   C   C   H         2       0.00000            167.4000
+   C   C   CZ  H         2       0.00000            167.4000
+   C   CZ  C   H         2       0.00000            167.4000
+      

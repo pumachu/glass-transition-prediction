@@ -1,0 +1,101 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[RCZ]
+
+   [ atoms ]
+      N2  N  -0.157381516 5
+      CN1 CN 0.152585984   5  
+      CP6 CP -0.035492516  4
+      CP7 CP -0.035193016  4
+      CNc CN 0.151716484   5
+      C2  C  -0.201573016  4
+      C3  C  -0.080342016  4
+      C4  C  -0.129523016  4
+      C5  C  -0.112555016  4
+      C8  C  -0.109629016  4
+      C9  C  -0.131563016  4
+      Ca  C  -0.080715016  4
+      Cb  C  -0.201295016  4
+      H2  H  0.111414984   4
+      H3  H  0.099949984   4    
+      H4  H  0.099814484   4
+      H5  H  0.106422984   4
+      H8  H  0.105995484   4
+      H9  H  0.100352484   4
+      Ha  H  0.100294984   4
+      Hb  H  0.110716984   4
+      
+   [ bonds ]
+      CN1 C2  ;first ring
+      C2  C3
+      C3  C4
+      C4  C5
+      C5  CP6
+      CP6 CN1
+
+      CP7 C8  ;second ring
+      C8  C9
+      C9  Ca
+      Ca  Cb
+      Cb  CNc
+      CNc CP7
+      
+      CN1 N2  ;pyrole
+      CNc N2
+      CP6 CP7
+      
+      C2  H2  ;hydrogens
+      C3  H3
+      C4  H4
+      C5  H5
+      C8  H8
+      C9  H9
+      Ca  Ha
+      Cb  Hb
+      
+      N2 +CZa
+
+     [ dihedrals ]
+      CN1  N2  +CZa +C9 
+
+     [ impropers ]
+      CN1  C2   C3   C4  ;first ring
+      C2   C3   C4   C5  
+      C3   C4   C5   CP6 
+      C4   C5   CP6  CN1 
+      C5   CP6  CN1  C2  
+      CP6  CN1  C2   C3  
+        
+      C2   C3   CN1  H2  
+      C3   C4   C2   H3  
+      C4   C5   C3   H4  
+      C5   CP6  C4   H5  
+  
+      CP7  C8   C9   Ca  ;second ring
+      C8   C9   Ca   Cb  
+      C9   Ca   Cb   CNc 
+      Ca   Cb   CNc  CP7 
+      Cb   CNc  CP7  C8  
+      CNc  CP7  C8   C9  
+        
+      C8   C9   CP7  H8  
+      C9   Ca   C8   H9  
+      Ca   Cb   C9   Ha  
+      Cb   CNc  Ca   Hb 
+      
+      CN1  CP6  CP7  CNc ;pyrole
+      CP6  CP7  CNc  N2 
+      CP7  CNc  N2   CN1 
+      CNc  N2   CN1  CP6
+      N2   CN1  CP6  CP7
+      
+      CN1  CP6  N2   C2 ; connection
+      CP6  CP7  CN1  C5
+      CP7  CP6  CNc  C8
+      CNc  CP7  N2   Cb
+      
+
+      N2   CN1  CNc +CZa ; connection to BIP
+      

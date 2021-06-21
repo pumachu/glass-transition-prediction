@@ -1,0 +1,56 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[BZ1]
+   [ atoms ]
+     CZ1 CZ   0.065985   2
+     C6  C    -0.145330  2
+     C7  C    -0.144733  2
+     C8  C    -0.089279  2
+     H6  H    0.101522   2
+     C9  C    -0.089112  2
+     H7  H    0.101324   2
+     Ca  C    -0.102678  2
+     H8  H    0.099790   2
+     H9  H    0.099577   2
+     Ha  H    0.098901   2
+
+   [ bonds ]
+     -CZ1 CZ1 ; TPA and benzene
+  
+      CZ1 C6  ; benzene
+      C6  C8
+      C8  Ca
+      Ca  C9
+      C9  C7
+      C7  CZ1
+      C6  H6
+      C7  H7
+      C8  H8
+      C9  H9  
+      Ca  Ha
+
+    [ dihedrals ]
+     -C13 -CZ1  CZ1  C6    ;  4  5 32 33  TPA and benzene
+
+    [ impropers ]
+      CZ1  C6   C8   Ca  ; benzene
+      C6   C8   Ca   C9
+      C8   Ca   C9   C7
+      Ca   C9   C7   CZ1
+      C9   C7   CZ1  C6
+      C7   CZ1  C6   C8
+
+      CZ1  C7   C6  -CZ1
+      C6   CZ1  C8   H6
+      C8   C6   Ca   H8
+      Ca   C8   C9   Ha
+      C9   Ca   C7   H9
+      C7   C9   CZ1  H7 
+
+     [ exclusions ]
+      H6  -H13
+      H6  -H15
+      H7  -H13
+      H7  -H15
+

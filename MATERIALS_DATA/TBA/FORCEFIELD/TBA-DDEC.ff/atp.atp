@@ -1,0 +1,7 @@
+  C       12.01100 
+  H        1.00800 
+  NT      14.00670 ;%
+  CP      12.01100 ; Other carbon in pyrrole ring
+  CZ      12.01100
+  CSZ     12.01100 ; Carbon next to S in thiophene ring
+  ST      32.06000 ; S in thiophene ring   opls_800 from LigParGen

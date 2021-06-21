@@ -1,0 +1,59 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[SBZ]
+   [ atoms ]
+       S   S    1.169418   4      
+       CZ1 CZ   -0.119628  4
+       C2  C    -0.092664  4
+       C3  C    -0.080939  4
+       C4  C    -0.074183  4
+       C5  C    -0.080939  4
+       C6  C    -0.092664  4
+       H2  H     0.127796  4
+       H3  H     0.108362  4
+       H4  H     0.105528  4
+       H5  H     0.108362  4
+       H6  H     0.127796  4
+       O1  O    -0.594619  4
+       O2  OD   -0.594619  4
+      
+   [ bonds ]
+      CZ1 C2  ;first ring
+      C2  C3
+      C3  C4
+      C4  C5
+      C5  C6
+      C6  CZ1
+
+      C2  H2
+      C3  H3
+      C4  H4
+      C5  H5
+      C6  H6
+
+      CZ1  S
+      S    O1
+      S    O2
+
+      S   -CZ2
+
+     [ impropers ]
+      CZ1  C2   C3   C4  ;first ring
+      C2   C3   C4   C5
+      C3   C4   C5   C6
+      C4   C5   C6   CZ1
+      C5   C6   CZ1  C2
+      C6   CZ1  C2   C3  
+
+      CZ1  C6   C2   S
+      C2   CZ1  C3   H2
+      C3   C2   C4   H3
+      C4   C3   C5   H4
+      C5   C4   C6   H5
+      C6   C5   CZ1  H6
+ 
+
+     [ dihedrals ]
+     -C10 -CZ2  S    O1  ; 24 25 52 64 
+      C2   CZ1  S    O2  ; 54 53 52 65

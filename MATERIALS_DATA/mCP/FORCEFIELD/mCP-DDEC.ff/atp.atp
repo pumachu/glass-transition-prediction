@@ -1,0 +1,7 @@
+  C       12.01100 
+  H        1.00800 
+  N       14.00670 ;%
+  CN      12.01100 ; Carbon next to N in pyrrole ring
+  CP      12.01100 ; Other carbon in pyrrole ring
+  CCC	  12.01100 ; bonding carbon btw two benzenes
+  CZ	  12.01100 ; bonding carbon to carbazole	

@@ -1,0 +1,49 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ BZ1 ]
+  [ atoms ]
+    CZa  CZ   -0.021974   2
+    C2   C    -0.101898   2
+    H2   H    0.110079    2 
+    C3   C    -0.099510   2
+    H3   H    0.102130    2
+    C4   C    -0.079282   2
+    H4   H    0.098809    2
+    C5   C    -0.100572   2
+    H5   H    0.101522    2
+    C6   C    -0.100122   2
+    H6   H    0.106562    2
+
+  [ bonds ]
+    CZa  C2
+    C2   C3 
+    C3   C4
+    C4   C5 
+    C5   C6
+    C6   CZa
+    
+    CZa -CZ3
+    C2   H2
+    C3   H3
+    C4   H4
+    C5   H5
+    C6   H6
+
+   
+  [ impropers ]  
+    CZa  C2   C3   C4
+    C2   C3   C4   C5 
+    C3   C4   C5   C6
+    C4   C5   C6   CZa
+    C5   C6   CZa  C2
+    C6   CZa  C2   C3 
+    
+    CZa  C6   C2  -CZ3
+    C2   CZa  C3   H2
+    C3   C2   C4   H3
+    C4   C3   C5   H4
+    C5   C4   C6   H5
+    C6   C5   CZa  H6
+    

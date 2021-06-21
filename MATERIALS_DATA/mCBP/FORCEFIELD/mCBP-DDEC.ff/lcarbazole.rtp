@@ -1,0 +1,99 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[LCZ]
+   [ atoms ]
+      N1  N  -0.15577    3
+      CN1 CN 0.154531    3
+      CP6 CP -0.0370655  2
+      CP7 CP -0.0329185  2
+      CNc CN 0.1507445   3
+      C2  C  -0.2035375  2
+      C3  C  -0.0776895  2
+      C4  C  -0.129675   2
+      C5  C  -0.112391   2
+      C8  C  -0.1130485  2
+      C9  C  -0.1308755  2
+      Ca  C  -0.079933   2
+      Cb  C  -0.202135   2
+      H2  H  0.1153045   2
+      H3  H  0.098106    2    
+      H4  H  0.0996615   2
+      H5  H  0.1071285   2
+      H8  H  0.106826    2
+      H9  H  0.100161    2
+      Ha  H  0.09971     2
+      Hb  H  0.111923    2
+
+   [ bonds ]
+      CN1 C2  ;first ring
+      C2  C3
+      C3  C4
+      C4  C5
+      C5  CP6
+      CP6 CN1
+
+      CP7 C8  ;second ring
+      C8  C9
+      C9  Ca
+      Ca  Cb
+      Cb  CNc
+      CNc CP7
+      
+      CN1 N1  ;pyrole
+      CNc N1
+      CP6 CP7
+      
+      C2  H2  ;hydrogens
+      C3  H3
+      C4  H4
+      C5  H5
+      C8  H8
+      C9  H9
+      Ca  Ha
+      Cb  Hb
+      
+      N1 -CZ1
+
+     [ dihedrals ]
+      -C2 -CZ1 N1  CNc 
+
+     [ impropers ]
+      CN1  C2   C3   C4  ;first ring
+      C2   C3   C4   C5  
+      C3   C4   C5   CP6 
+      C4   C5   CP6  CN1 
+      C5   CP6  CN1  C2  
+      CP6  CN1  C2   C3  
+        
+      C2   C3   CN1  H2  
+      C3   C4   C2   H3  
+      C4   C5   C3   H4  
+      C5   CP6  C4   H5  
+  
+      CP7  C8   C9   Ca  ;second ring
+      C8   C9   Ca   Cb  
+      C9   Ca   Cb   CNc 
+      Ca   Cb   CNc  CP7 
+      Cb   CNc  CP7  C8  
+      CNc  CP7  C8   C9  
+        
+      C8   C9   CP7  H8  
+      C9   Ca   C8   H9  
+      Ca   Cb   C9   Ha  
+      Cb   CNc  Ca   Hb 
+      
+      CN1  CP6  CP7  CNc ;pyrole
+      CP6  CP7  CNc  N1 
+      CP7  CNc  N1   CN1 
+      CNc  N1   CN1  CP6
+      N1   CN1  CP6  CP7
+      
+      CN1  CP6  N1   C2 ; connection
+      CP6  CP7  CN1  C5
+      CP7  CP6  CNc  C8
+      CNc  CP7  N1   Cb
+      
+      
+      N1   CN1  CNc -CZ1; connection to BIP
+      

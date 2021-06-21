@@ -1,0 +1,130 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+[LNT]
+
+   [ atoms ]
+      NT1 NT  -0.2218994487    1
+      CZ1 CZ  0.2018180513     1  
+      Ca2 C   -0.1933074487    1
+      Ca3 C   -0.07414344872   1
+      Ca4 C   -0.1250434487    1
+      Ca5 C   -0.07301994872   1
+      Ca6 C   -0.1932459487    1
+      Ha2 H   0.1158710513     1
+      Ha3 H   0.09865505128    1
+      Ha4 H   0.09909105128    1
+      Ha5 H   0.09811105128    1
+      Ha6 H   0.1159355513     1
+      CZn CZ  0.1468005513     2
+      CB1 CB  -0.008385448718  2
+      CB2 CB  0.08193755128    2
+      Cb3 C  -0.1566399487     2    
+      Cb4 C  -0.07979744872    2
+      Cb5 C  -0.1792789487     2
+      Cb6 C  -0.1247424487     2
+      Cb7 C  -0.08898844872    2
+      Cb8 C  -0.09428794872    2
+      Cb9 C  -0.1456634487     2
+      Hb3 H  0.1067280513      2    
+      Hb4 H  0.1019385513      2
+      Hb5 H  0.1217225513      2
+      Hb6 H  0.1058460513      2
+      Hb7 H  0.1012080513      2
+      Hb8 H  0.1012110513      2
+      Hb9 H  0.1046830513      2
+       
+      
+   [ bonds ]
+      NT1 CZ1
+
+      CZ1 Ca2 ;first ring
+      Ca2 Ca3
+      Ca3 Ca4
+      Ca4 Ca5
+      Ca5 Ca6
+      Ca6 CZ1
+      Ca2 Ha2 ;hydrogens
+      Ca3 Ha3
+      Ca4 Ha4
+      Ca5 Ha5
+      Ca6 Ha6
+
+      NT1 CZn
+
+      CZn CB1 ;Naphthalene
+      CB1 CB2
+      CB2 Cb3
+      Cb3 Cb4
+      Cb4 Cb5
+      Cb5 CZn
+      CB1 Cb6
+      Cb6 Cb7 
+      Cb7 Cb8
+      Cb8 Cb9
+      Cb9 CB2
+      
+      Cb3 Hb3
+      Cb4 Hb4
+      Cb5 Hb5
+      Cb6 Hb6
+      Cb7 Hb7
+      Cb8 Hb8
+      Cb9 Hb9
+      
+      NT1 +CZa
+
+     [ dihedrals ]
+      Ca6  CZ1  NT1 +CZa  ; 7 2 1 30    C CZ NT CZ
+      CB1  CZn  NT1  CZ1  ; 14 13 1 2  CB CZ NT CZ
+     +C2  +CZa  NT1  CZn  ; 31 30 1 13  C CZ NT CZ
+
+     [ impropers ]
+      NT1  CZ1  CZn +CZa 
+      NT1 +CZa  CZ1  CZn
+      NT1  CZn +CZa  CZ1
+
+      CZ1  Ca2  Ca3  Ca4 ; the benze ring
+      Ca2  Ca3  Ca4  Ca5 
+      Ca3  Ca4  Ca5  Ca6 
+      Ca4  Ca5  Ca6  CZ1 
+      Ca5  Ca6  CZ1  Ca2 
+      Ca6  CZ1  Ca2  Ca3 
+
+      CZ1  Ca2  Ca6  NT1 ; side atoms
+      
+      Ca2  CZ1  Ca3  Ha2 
+      Ca3  Ca2  Ca4  Ha3 
+      Ca4  Ca3  Ca5  Ha4 
+      Ca5  Ca4  Ca6  Ha5 
+      Ca6  Ca5  CZ1  Ha6 
+  
+      CZn  CB1  CB2  Cb3 ;Naphthalene
+      CB1  CB2  Cb3  Cb4 
+      CB2  Cb3  Cb4  Cb5 
+      Cb3  Cb4  Cb5  CZn 
+      Cb4  Cb5  CZn  CB1 
+      Cb5  CZn  CB1  CB2
+      CB1  Cb6  Cb7  Cb8 ; the second ring in Naphthalene
+      Cb6  Cb7  Cb8  Cb9
+      Cb7  Cb8  Cb9  CB2
+      Cb8  Cb9  CB2  CB1
+      Cb9  CB2  CB1  Cb6
+      CB2  CB1  Cb6  Cb7
+      CB1  CZn  CB2  Cb6 ; connection between two rings
+      CB2  CB1  Cb3  Cb9
+        
+      CZn  CB1  Cb5  NT1 ; side atoms
+
+      Cb3  CB2  Cb4  Hb3 
+      Cb4  Cb3  Cb5  Hb4 
+      Cb5  Cb4  CZn  Hb5
+      Cb6  CB1  Cb7  Hb6 
+      Cb7  Cb6  Cb8  Hb7 
+      Cb8  Cb7  Cb9  Hb8
+      Cb9  Cb8  CB2  Hb9
+      
+    [ exclusions ]
+      Ha2  +H2
+      Ha6   Hb5 
+      Hb6  +H5  +H6

@@ -1,0 +1,16 @@
+  C       12.01100 
+  H        1.00800 
+  HC	   1.00800
+  NT      14.00670 ;%
+  NP      14.00670
+  NN      14.00670
+  CP      12.01100 ; Other carbon in pyrrole ring
+  CH	  12.01100 ; bonding carbon btw two benzenes
+  CF	  12.01100 ; bonding carbon to carbazole	
+  CCC     12.01100
+  CT      12.01100
+  CM      12.01100
+  N       14.00670
+  CZ      12.01100
+  CN      12.01100 
+  CB      12.01100 ; alpha-NPD

@@ -1,0 +1,113 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[ ANT ]
+  [ atoms ]
+    C1  C   -0.090286 1
+    C2  C   -0.134311 1
+    CB3 CB  0.024642  1
+    CZa CZ  -0.026935 1
+    CB4 CB  0.024642  1
+    C5  C   -0.134311 1
+    C6  C   -0.090286 1
+    C7  C   -0.091299 1
+    C8  C   -0.134545 1
+    CB9 CB  0.026780  1
+    CZb CZ  -0.027044 1
+    CBa CB  0.026780  1
+    Cb  C   -0.134545 1
+    Cc  C   -0.091299 1
+    H1  H   0.099545  1
+    H2  H   0.104922  1
+    H5  H   0.104922  1
+    H6  H   0.099545  1
+    H7  H   0.100234  1
+    H8  H   0.104611  1
+    Hb  H   0.104611  1
+    Hc  H   0.100234  1
+
+  [ bonds ]
+    C1   C2   ; first ring
+    C2   CB3
+    CB3  CBa
+    CBa  Cb
+    Cb   Cc
+    Cc   C1 
+   
+    C1   H1
+    C2   H2
+    Cb   Hb
+    Cc   Hc
+
+    CB3  CZa  ; second ring
+    CZa  CB4
+    CB4  CB9
+    CB9  CZb
+    CZb  CBa
+    CBa  CB3
+
+    CZa +CZ2
+    CZb +CZ1
+
+    CB4  C5   ; third ring
+    C5   C6
+    C6   C7
+    C7   C8
+    C8   CB9
+    CB9  CB4
+
+    C5   H5
+    C6   H6
+    C7   H7
+    C8   H8
+
+  [ dihedrals ]
+    C2   CB3  CBa  CZb   ;planarize
+    Cb   CBa  CB3  CZa   ;planarize
+    C5   CB4  CB9  CZb   ;planarize
+    C8   CB9  CB4  CZa   ;planarize
+    
+  [ impropers ]
+    C1   C2   CB3  CBa   ; first ring
+    C2   CB3  CBa  Cb
+    CB3  CBa  Cb   Cc
+    CBa  Cb   Cc   C1
+    Cb   Cc   C1   C2
+    Cc   C1   C2   CB3
+
+    C1   Cc   C2   H1
+    C2   C1   CB3  H2
+    CB3  C2   CBa  CZa
+    CBa  CB3  Cb   CZb
+    Cb   CBa  Cc   Hb
+    Cc   Cb   C1   Hc
+
+    CB3  CZa  CB4  CB9   ; second ring
+    CZa  CB4  CB9  CZb
+    CB4  CB9  CZb  CBa
+    CB9  CZb  CBa  CB3
+    CZb  CBa  CB3  CZa
+    CBa  CB3  CZa  CB4
+     
+    CB3  CBa  CZa  C2
+    CZa  CB3  CB4 +CZ2
+    CB4  CZa  CB9  C5
+    CB9  CB4  CZb  C8
+    CZb  CB9  CBa +CZ1
+    CBa  CZb  CB3  Cb
+    
+    CB4  C5   C6   C7   ; third ring
+    C5   C6   C7   C8
+    C6   C7   C8   CB9
+    C7   C8   CB9  CB4
+    C8   CB9  CB4  C5
+    CB9  CB4  C5   C6
+  
+    CB4  CB9  C5   CZa
+    C5   CB4  C6   H5
+    C6   C5   C7   H6
+    C7   C6   C8   H7
+    C8   C7   CB9  H8
+    CB9  C8   CB4  CZb
+ 

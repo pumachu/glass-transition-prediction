@@ -1,0 +1,106 @@
+[ bondedtypes ]
+; bonds   angles dihedrals impropers
+    1        1        3        2
+
+[RCZ]
+   [ atoms ]
+      N2  N     -0.157710   1 
+      CN1 CN    0.148351    1
+      CP6 CP    -0.027738   1
+      CP7 CP    -0.029702   1
+      CNc CN    0.151626    1
+      C2  C     -0.193561   1
+      C3  C     -0.126999   1
+      CZc CZ    0.043419    1
+      C5  C     -0.165558   1
+      C8  C     -0.115740   1
+      C9  C     -0.129138   1
+      Ca  C     -0.082761   1
+      Cb  C     -0.202996   1
+      H2  H     0.113851    1
+      H3  H     0.102336    1
+      H5  H     0.111042    1
+      H8  H     0.108350    1
+      H9  H     0.099234    1
+      Ha  H     0.100289    1
+      Hb  H     0.112715    1 
+
+   [ bonds ]
+      CN1 C2  ;first ring
+      C2  C3
+      C3  CZc
+      CZc C5
+      C5  CP6
+      CP6 CN1
+
+      CP7 C8  ;second ring
+      C8  C9
+      C9  Ca
+      Ca  Cb
+      Cb  CNc
+      CNc CP7
+      
+      CN1 N2  ;pyrole
+      CNc N2
+      CP6 CP7
+      
+      C2  H2  ;hydrogens
+      C3  H3
+      CZc +CZd
+      C5  H5
+      C8  H8
+      C9  H9
+      Ca  Ha
+      Cb  Hb
+      
+      N2 +CZa
+
+     [ dihedrals ]
+      CN1  N2  +CZa +C12  ;2  1 22 23
+      C3   CZc +CZd +C5   ;7  8 50 51
+
+     [ impropers ]
+      CN1  C2   C3   CZc  ;first ring
+      C2   C3   CZc  C5  
+      C3   CZc  C5   CP6 
+      CZc  C5   CP6  CN1 
+      C5   CP6  CN1  C2  
+      CP6  CN1  C2   C3  
+        
+      C2   C3   CN1  H2  
+      C3   CZc  C2   H3  
+      C5   CP6  CZc  H5  
+  
+      CP7  C8   C9   Ca  ;second ring
+      C8   C9   Ca   Cb  
+      C9   Ca   Cb   CNc 
+      Ca   Cb   CNc  CP7 
+      Cb   CNc  CP7  C8  
+      CNc  CP7  C8   C9  
+        
+      C8   C9   CP7  H8  
+      C9   Ca   C8   H9  
+      Ca   Cb   C9   Ha  
+      Cb   CNc  Ca   Hb 
+      
+      CN1  CP6  CP7  CNc ;pyrole
+      CP6  CP7  CNc  N2 
+      CP7  CNc  N2   CN1 
+      CNc  N2   CN1  CP6
+      N2   CN1  CP6  CP7
+      
+      CN1  CP6  N2   C2 ; connection
+      CP6  CP7  CN1  C5
+      CP7  CP6  CNc  C8
+      CNc  CP7  N2   Cb
+      
+
+      N2   CN1  CNc +CZa ; connection to BZ1
+     CZc   C3   C5  +CZd ; connection to LCZ 
+
+    [ exclusions ]
+      H3  +H3
+      H3  +H5
+      H5  +H3
+      H5  +H5
+
