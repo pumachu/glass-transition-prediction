@@ -47,12 +47,12 @@ for n,fr in enumerate([150,200,250,300]):
     R2 = np.array(R2,dtype='float')
     dic = {'X':X,'R2':R2}
     df = pd.DataFrame(dic)
-    df1 = df[df.loc[:,'X'] > X[np.argmin(R2)] ]
+    df1 = df[df.loc[:,'X'] > min([X[np.argmin(R2)],400.0]) ]
     X1 = df1.loc[:,'X'].values.tolist()
     Y1 = df1.loc[:,'R2'].values.tolist()
     range1 = X1[Y1.index(max(Y1))]
 
-    df1 = df[df.loc[:,'X'] < X[np.argmin(R2)] ]
+    df1 = df[df.loc[:,'X'] < min([X[np.argmin(R2)],400.0]) ]
     X1 = df1.loc[:,'X'].values.tolist()
     Y1 = df1.loc[:,'R2'].values.tolist()
     range2 = X1[Y1.index(max(Y1))]
@@ -78,7 +78,6 @@ for n,fr in enumerate([150,200,250,300]):
     m2,b2 = polyfit(X2, Y2, 1)
     X = np.linspace(100.0,700.0,100)
     Tg = (b2-b1)/(m1-m2)
-    print (fr,Tg-273.15)
     XX1 = np.linspace(Tg-50.0,range1+fr,100)
     XX2 = np.linspace(range2,Tg+50.0,100)
     Tg = (b2-b1)/(m1-m2)
@@ -86,6 +85,7 @@ for n,fr in enumerate([150,200,250,300]):
     ax.plot(XX2,m2*XX2+b2,lw=2,c=color[n])
     ax.legend()
     Tg = '{:3.2f}'.format(Tg-273.15)
+    print ('Fitting size: ',fr,'Tg: ',Tg)
 
 ax.scatter(T2,D2,s=1,c='black')
 ax.set_xlabel('Temperature (K)')
