@@ -1,7 +1,12 @@
 # Protocol for glass-transition temperature prediction
-This is a repository for the paper:
+This is a repository of the paper:
+```
+Kun-Han Lin*, Leanne Paterson, Falk May and Denis Andrienko* Glass transition temperature prediction of disordered molecular solids, submitted
+```
+The 26 organic molecules investigated here are common **host materials** or **hole transport materials** for organic light-emitting diodes, as shown in Figure below.  
 
-**Kun-Han Lin**, Leanne Paterson, Falk May and **Denis Andrienko** Glass transition temperature prediction of disordered molecular solids, *submitted*
+<img src='https://i.imgur.com/HPvvHs8.png' alt='alt text' width=800 >
+
 
 The contents will be introduced as following.
 
