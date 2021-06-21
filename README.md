@@ -3,7 +3,7 @@ This is a repository of the paper:
 ```
 Kun-Han Lin*, Leanne Paterson, Falk May and Denis Andrienko* Glass transition temperature prediction of disordered molecular solids, submitted
 ```
-The 26 organic molecules investigated here are common **host materials** or **hole transport materials** for organic light-emitting diodes, as shown in Figure below.  
+The 26 organic molecules investigated here are common **host materials** or **hole transport materials** for organic light-emitting diodes, as shown in the figure below.  
 
 <img src='https://i.imgur.com/HPvvHs8.png' alt='alt text' width=800 >
 
