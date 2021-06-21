@@ -1,6 +1,6 @@
 ;Run Control Parameters
 integrator      = md   
-nsteps          = 10000000
+nsteps          = 9000000
 dt              = 0.001
 tinit           = 0
 init_step       = 0
@@ -64,5 +64,5 @@ gen_seed        = 1993
 ;Simulated Annealing
 annealing                = single
 annealing_npoints        = 3
-annealing_time           = 0 1000 10000
-annealing_temp           = 900 900 0
+annealing_time           = 0 1000 9000
+annealing_temp           = 800 800 0
