@@ -7,7 +7,7 @@ The contents will be introduced as following.
 
 ### INPUT_FILES
 This folder contains input files for Gaussian (**GAUSSIAN/**), DDEC6 (**DDEC6/**) and Gromacs (**GROMACS/**) computations.
-In **GROMACS** folder, there are three input files corresponding to the three steps in generating simulated amorphous morphology:   
+In **GROMACS** folder, there are three input files corresponding to the three steps in generating simulated amorphous morphology and cooling:   
 ```
 a. Geometry optimizaion (em.mdp)  
 b. Heating and compressing (heating.mdp)   
