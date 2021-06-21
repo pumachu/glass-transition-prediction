@@ -14,7 +14,7 @@ b. Heating and compressing (heating.mdp)
 c. Cooling (cooling.mdp)   
 ```
 ### ANALYZING_SCRIPTS
-This folder contains python scripts for Tg fitting and creating R<sup>2</sup>-Temperautre plots for various fitting ranges.  
+This folder contains python scripts for generating DDEC parameters, Tg fitting and creating R<sup>2</sup>-Temperautre plots for various fitting ranges.  
 **Usage for R2-T_plot.py:**  
 ```
 python R2-T_plot.py energy.xvg
@@ -46,6 +46,25 @@ Fitting size:  300 Tg:  101.31
 ```
 
 <img src='https://i.imgur.com/pm4Xwh6.png' alt='alt text' width=500>
+
+**Usage for gen_VDW.py:**  
+```
+python gen_VDW.py
+```
+We generate the VDW parameters according to the [protocol](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00027) proposed by Cole *et al*. The DDEC6 output file (**DDEC_atomic_Rcubed_moments.xyz**) should be present in the same folder.  
+After executing, it generates an output (VDW_parameters.txt) containing the LJ parameters for each atom.
+In this work, we calculate the LJ parameters for each atomtype defined in forcefield by averaging LJ parameters of atoms belonging to the corresponding atomtype.
+
+```
+index  element  sigma(nm) epsilon(kJ/mol)
+1  C  0.3285743291286239  0.2591880549216842
+2  C  0.35876550847271765  0.259188054921684
+3  C  0.34417631543886273  0.25918805492168406
+4  C  0.3467102162365648  0.25918805492168423
+5  C  0.33869454454486536  0.2591880549216841
+6  N  0.3175683741309179  0.42097226362187506
+...
+```
 
 ### MATERIALS_DATA
 This folder contains data of 26 organic semiconductors investigated in this work. The files in the subdirectory are explained in the table below:  
