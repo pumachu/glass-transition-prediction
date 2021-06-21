@@ -51,7 +51,7 @@ Fitting size:  300 Tg:  101.31
 ```
 python gen_VDW.py
 ```
-We generate the VDW parameters according to the [protocol](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00027) proposed by Cole *et al*. The DDEC6 output file (DDEC_atomic_Rcubed_moments.xyz) should be present in the same folder.  
+We generate the VDW parameters according to the [protocol](https://pubs.acs.org/doi/10.1021/acs.jctc.6b00027) proposed by Cole *et al*. The DDEC6 output file (**DDEC_atomic_Rcubed_moments.xyz**) should be present in the same folder.  
 After executing, it generates an output (VDW_parameters.txt) containing the LJ parameters for each atom.
 In this work, we calculate the LJ parameters for each atomtype defined in forcefield by averaging LJ parameters of atoms belonging to the corresponding atomtype.
 
