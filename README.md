@@ -29,9 +29,6 @@ python Tg_fit_plot.py energy.xvg
 ```
 The output of the python script is the ρ-Temperature plot and the fitted Tg using different fitting ranges:
 
-```
-python Tg_fit_plot.py energy.xvg
-```
 
 ```
 Fitting Range1:[ 405.0 , 555.0 )  
