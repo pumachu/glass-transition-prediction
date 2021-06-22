@@ -1,5 +1,5 @@
 # Protocol for glass-transition temperature prediction
-This is a repository of the paper:
+This is a repository (v1.0) of the paper:
 
 > **Kun-Han Lin**, Leanne Paterson, Falk May and **Denis Andrienko**, Glass transition temperature prediction of disordered molecular solids, *submitted*
 
